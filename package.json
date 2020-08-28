@@ -1,12 +1,35 @@
 {
-  "name": "Express-Api-Generator",
-  "version": "1.0.0",
+  "name": "express-api-generator",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "commander": "2.15.1",
+    "configstore": "^5.0.1",
+    "ejs": "^3.1.5",
+    "esm": "^3.2.25",
+    "extfs": "^0.0.7",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.20.1",
+    "touch": "^3.1.0"
+  },
+  "main": "src/cli.js",
+  "bin": {
+    "api-gen": "bin/api-gen"
+  },
+  "files": [
+    "bin/",
+    "templates/"
+  ]
 }
